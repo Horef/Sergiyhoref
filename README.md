@@ -6,8 +6,16 @@ If you are reading this, and you are not Sergiy Horef, you could possibly use th
 
 ## Mac apps
 
+## Scientific Literature
+- GEB (An eternal golden braid.)
+- Theory of Self-Reproducing Automata - Von Neumann. (Currenly reading.)
+
 ## Fiction Books
 (Note that the books are ordered in an ascending order of the date I have finished reading the book. In other words, the last book I have read will also be the last one in the list.)
+- Atlas Shrugged.
+- Flowers for Algernon.
+- The Library of Babel.
+- (There is a gap here as there are many books I have read and did not write down anywhere.)
 - Blindsight.
 - Echopraxia.
 - Blood Music.
