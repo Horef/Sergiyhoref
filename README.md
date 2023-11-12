@@ -38,4 +38,19 @@ If you are reading this, and you are not Sergiy Horef, you could possibly use th
 
 ## Movies
 (This list is starting from 23.11.2023)
+- (2001) A Space Odyssey
 - Spider-Man Across the Spider Verse
+
+## Social Handles
+- Personal Instagram: @sergiyhorefpers
+- Threads: @sergiyhorefpers
+- Advertisements Instagram: @sergiyhorefad
+- Trading Instagram: @sergiyhoreftrade
+- Facebook: [Sergiy Horef](https://www.facebook.com/profile.php?id=100007386996172)
+- X/Twitter: [@horefsergiy](https://twitter.com/horefsergiy)
+- Telegram: SergiyHoref
+- Telegram Private Channel where i post my thought on the world: [link](https://t.me/+x2wCsVk28ONiMjli)
+  - Please keep in mind that this is a closed channel, and I will need to approve your request to join. I try to keep a very good hygene of the people I add there, as it directly influences what I do, and don't feel comfortable with posting there.
+- Telegram Gallery of Photos: [link](https://t.me/Horef_Gallery)
+- Telegram Gallery of Drawings: [link](https://t.me/horef_drawing_gallery)
+- Telegram Gallery of Origami: [link](https://t.me/horef_origami)
