@@ -47,7 +47,9 @@ If you are reading this, and you are not Sergiy Horef, you could possibly use th
 - Advertisements Instagram: @sergiyhorefad
 - Trading Instagram: @sergiyhoreftrade
 - Facebook: [Sergiy Horef](https://www.facebook.com/profile.php?id=100007386996172)
+- Reddit: [u/Sergiy-Horef](https://www.reddit.com/user/Sergiy-Horef)
 - X/Twitter: [@horefsergiy](https://twitter.com/horefsergiy)
+- BlueSky: [@sergiyhoref.bsky.social](https://bsky.app/profile/sergiyhoref.bsky.social)
 - Telegram: SergiyHoref
 - Telegram Private Channel where i post my thought on the world: [link](https://t.me/+x2wCsVk28ONiMjli)
   - Please keep in mind that this is a closed channel, and I will need to approve your request to join. I try to keep a very good hygene of the people I add there, as it directly influences what I do, and don't feel comfortable with posting there.
