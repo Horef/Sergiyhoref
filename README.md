@@ -34,7 +34,8 @@ If you are reading this, and you are not Sergiy Horef, you could possibly use th
 - The Metamorphosis of Prime Intellect.
 - Diaspora.
 - Permutation City.
-- Accelerando (Currenly reading.)
+- Accelerando.
+- "Anathem" by Neal Stephenson (currently reading).
 
 ## Movies
 (This list is starting from 23.11.2023)
