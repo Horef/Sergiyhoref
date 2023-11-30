@@ -36,6 +36,7 @@ If you are reading this, and you are not Sergiy Horef, you could possibly use th
 - Permutation City.
 - Accelerando.
 - "Anathem" by Neal Stephenson (currently reading).
+- "Ubik" by Philip K. Dick (next).
 
 ## Movies
 (This list is starting from 23.11.2023)
