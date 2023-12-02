@@ -49,6 +49,8 @@ If you are reading this, and you are not Sergiy Horef, you could possibly use th
 - Advertisements Instagram: @sergiyhorefad
 - Trading Instagram: @sergiyhoreftrade
 - Facebook: [Sergiy Horef](https://www.facebook.com/profile.php?id=100007386996172)
+- TikTok: @sergiyhoref
+- BeReal: @sergiyhoref
 - Reddit: [u/Sergiy-Horef](https://www.reddit.com/user/Sergiy-Horef)
 - X/Twitter: [@horefsergiy](https://twitter.com/horefsergiy)
 - BlueSky: [@sergiyhoref.bsky.social](https://bsky.app/profile/sergiyhoref.bsky.social)
