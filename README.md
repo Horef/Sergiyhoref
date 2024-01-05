@@ -5,6 +5,26 @@ It will have a list of all the apps I use on my devices, and possibly some mecha
 If you are reading this, and you are not Sergiy Horef, you could possibly use this repo as a template to become one. (At least in a very shallow non-private sense.)
 
 ## Mac apps
+### General Apple Suite
+- All of the preinstalled mac apps.
+
+### Learning and PIM
+- Anki
+- Obsidian
+
+### Settings and Utils
+- TinkerTools
+
+### Editing
+- Photomator
+- Pixelmator Pro
+
+### Socials
+- Telegram
+- Whatsapp
+- Twitter/X
+- Zoom
+- Discord
 
 ## Scientific Literature
 - GEB (An eternal golden braid.)
