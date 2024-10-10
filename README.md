@@ -59,9 +59,14 @@ If you are reading this, and you are not Sergiy Horef, you could possibly use th
 - "Ubik" by Philip K. Dick (next).
 
 ## Movies
-(This list is starting from 23.11.2023)
 - (2001) A Space Odyssey
 - Spider-Man Across the Spider Verse
+- Everything Everywhere All at Once
+- Dune 1
+- Dune 2
+### Wishlist
+- We live in time
+
 
 ## Social Handles
 - Personal Instagram: @sergiyhorefpers
