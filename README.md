@@ -4,28 +4,6 @@ This repo was created for me (mostly) to be able to store information or ideas t
 It will have a list of all the apps I use on my devices, and possibly some mechanisms or algorithms that have no immediate place of upload.
 If you are reading this, and you are not Sergiy Horef, you could possibly use this repo as a template to become one. (At least in a very shallow non-private sense.)
 
-## Mac apps
-### General Apple Suite
-- All of the preinstalled mac apps.
-
-### Learning and PIM
-- Anki
-- Obsidian
-
-### Settings and Utils
-- TinkerTools
-
-### Editing
-- Photomator
-- Pixelmator Pro
-
-### Socials
-- Telegram
-- Whatsapp
-- Twitter/X
-- Zoom
-- Discord
-
 ## Scientific Literature
 - GEB (An eternal golden braid.)
 - Theory of Self-Reproducing Automata - Von Neumann. (Currenly reading.)
@@ -85,3 +63,28 @@ If you are reading this, and you are not Sergiy Horef, you could possibly use th
 - Telegram Gallery of Photos: [link](https://t.me/Horef_Gallery)
 - Telegram Gallery of Drawings: [link](https://t.me/horef_drawing_gallery)
 - Telegram Gallery of Origami: [link](https://t.me/horef_origami)
+
+## Mac apps
+### Overall Apps
+![All Apps](images/all_apps)
+
+### General Apple Suite
+- All of the preinstalled mac apps.
+
+### Learning and PIM
+- Anki
+- Obsidian
+
+### Settings and Utils
+- TinkerTools
+
+### Editing
+- Photomator
+- Pixelmator Pro
+
+### Socials
+- Telegram
+- Whatsapp
+- Twitter/X
+- Zoom
+- Discord
