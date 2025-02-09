@@ -65,26 +65,75 @@ If you are reading this, and you are not Sergiy Horef, you could possibly use th
 - Telegram Gallery of Origami: [link](https://t.me/horef_origami)
 
 ## Mac apps
-### Overall Apps
-![All Apps](images/all_apps)
-
-### General Apple Suite
-- All of the preinstalled mac apps.
-
-### Learning and PIM
-- Anki
-- Obsidian
-
-### Settings and Utils
-- TinkerTools
-
-### Editing
-- Photomator
-- Pixelmator Pro
+### All Apps
+![All Apps](Images/all_apps.png)
 
 ### Socials
-- Telegram
-- Whatsapp
-- Twitter/X
-- Zoom
-- Discord
+![Socials](Images/socials.png)
+
+### Location
+![Location](Images/location.png)
+
+### Photography
+![Photography](Images/photography.png)
+
+### Content
+![Content](Images/content.png)
+
+### Creator Suite
+![Creator Suite](Images/creator_suite.png)
+
+### Productivity
+![Productivity](Images/productivity.png)
+
+### Settings
+![Settings](Images/settings.png)
+
+### Other
+![Other](Images/other.png)
+
+### Editing
+![Editing](Images/editing.png)
+
+### Information and Social
+![Information and Social](Images/info_nd_social.png)
+
+### Browser
+![Browser](Images/browser.png)
+
+### Office
+![Office](Images/office.png)
+
+### Developer Tools
+![Developer Tools](Images/dev.png)
+
+### Utils
+![Utils 1](Images/utils_1.png)
+![Utils 2](Images/utils_2.png)
+
+### Reference
+![Reference](Images/ref.png)
+
+### Latex
+![Latex](Images/latex.png)
+
+### Math
+![Math](Images/math.png)
+
+### DEVONthink
+![DEVONthink](Images/devon.png)
+
+### Video
+![Video](Images/video.png)
+
+### Services
+![Services](Images/services.png)
+
+### AI tools
+![AI tools](Images/ai.png)
+
+### NetLogo
+![NetLogo](Images/netlogo.png)
+
+### Writing
+![Writing](Images/writing.png)
