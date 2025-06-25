@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>743277343.30167699</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionUID</key>
+						<integer>22947</integer>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>StyledText</key>
+						<data>
+						cnRmZAAAAAADAAAAAgAAAAcAAABU
+						WFQucnRmAQAAAC6yAQAAKwAAAAEA
+						AACqAQAAe1xydGYxXGFuc2lcYW5z
+						aWNwZzEyNTJcY29jb2FydGYyODIx
+						Clxjb2NvYXRleHRzY2FsaW5nMFxj
+						b2NvYXBsYXRmb3JtMHtcZm9udHRi
+						bFxmMFxmc3dpc3NcZmNoYXJzZXQw
+						IEhlbHZldGljYTt9CntcY29sb3J0
+						Ymw7XHJlZDI1NVxncmVlbjI1NVxi
+						bHVlMjU1O1xyZWQwXGdyZWVuMFxi
+						bHVlMDt9CntcKlxleHBhbmRlZGNv
+						bG9ydGJsOztcY3NzcmdiXGMwXGMw
+						XGMwXGM4NDcwNlxjbmFtZSBjb250
+						cm9sVGV4dENvbG9yO30KXHBhcmRc
+						dHg1NjBcdHgxMTIwXHR4MTY4MFx0
+						eDIyNDBcdHgyODAwXHR4MzM2MFx0
+						eDM5MjBcdHg0NDgwXHR4NTA0MFx0
+						eDU2MDBcdHg2MTYwXHR4NjcyMFxw
+						YXJkaXJuYXR1cmFsXHBhcnRpZ2h0
+						ZW5mYWN0b3IwCgpcZjBcZnMyNiBc
+						Y2YyIGh0dHBzOi8vd3d3Lm92ZXJs
+						ZWFmLmNvbS9sZWFybi9sYXRleC9U
+						aWtaX3BhY2thZ2V9AQAAACMAAAAB
+						AAAABwAAAFRYVC5ydGYQAAAA61Fc
+						Z7YBAAAAAAAAAAAAAA==
+						</data>
+						<key>Title</key>
+						<string>Source</string>
+					</dict>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>ActionUID</key>
+						<integer>22946</integer>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>Text</key>
+						<string>\usepackage{tikz}
+\usetikzlibrary{positioning}</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>755796275.76365995</real>
+				<key>ModificationDate</key>
+				<real>755796330.42491901</real>
+				<key>Name</key>
+				<string>Tikz Packages</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>CF79656B-D139-42E9-8FF5-0102CAF31588</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Latex Snippets</string>
+		<key>ToggleMacroUID</key>
+		<string>DD3ADE7D-D85A-478C-A381-AAB8E22C1421</string>
+		<key>UID</key>
+		<string>DA199D0D-A5FD-4376-A4F8-120ACC999AF9</string>
+	</dict>
+</array>
+</plist>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>743277343.30167699</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionUID</key>
+						<integer>21774</integer>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>StyledText</key>
+						<data>
+						cnRmZAAAAAADAAAAAgAAAAcAAABU
+						WFQucnRmAQAAAC6lAgAAKwAAAAEA
+						AACdAgAAe1xydGYxXGFuc2lcYW5z
+						aWNwZzEyNTJcY29jb2FydGYyNzYx
+						Clxjb2NvYXRleHRzY2FsaW5nMFxj
+						b2NvYXBsYXRmb3JtMHtcZm9udHRi
+						bFxmMFxmc3dpc3NcZmNoYXJzZXQw
+						IEhlbHZldGljYTtcZjFcZm5pbFxm
+						Y2hhcnNldDAgLkFwcGxlU3lzdGVt
+						VUlGb250TW9ub3NwYWNlZC1SZWd1
+						bGFyO30Ke1xjb2xvcnRibDtccmVk
+						MjU1XGdyZWVuMjU1XGJsdWUyNTU7
+						XHJlZDBcZ3JlZW4wXGJsdWUwO1xy
+						ZWQ4XGdyZWVuNjRcYmx1ZTEyODtc
+						cmVkMjQ0XGdyZWVuMjQ0XGJsdWUy
+						NDQ7ClxyZWQxMVxncmVlbjEyXGJs
+						dWUxMjt9CntcKlxleHBhbmRlZGNv
+						bG9ydGJsOztcY3NzcmdiXGMwXGMw
+						XGMwXGM4NDcwNlxjbmFtZSBjb250
+						cm9sVGV4dENvbG9yO1xjc3NyZ2Jc
+						YzM5MlxjMzI5NDFcYzU3NjQ3O1xj
+						c3NyZ2JcYzk2NDcxXGM5NjQ3MVxj
+						OTY0NzE7Clxjc3NyZ2JcYzQ3MDZc
+						YzUwOThcYzU0OTA7fQpccGFyZFx0
+						eDU2MFx0eDExMjBcdHgxNjgwXHR4
+						MjI0MFx0eDI4MDBcdHgzMzYwXHR4
+						MzkyMFx0eDQ0ODBcdHg1MDQwXHR4
+						NTYwMFx0eDYxNjBcdHg2NzIwXHBh
+						cmRpcm5hdHVyYWxccGFydGlnaHRl
+						bmZhY3RvcjAKClxmMFxmczI2IFxj
+						ZjIgUmVndWlyZXMgXAoKXGYxIFxj
+						ZjMgXGNiNCBcZXhwbmQwXGV4cG5k
+						dHcwXGtlcm5pbmcwClxcdXNlcGFj
+						a2FnZVxjZjUgXHtzdWJjYXB0aW9u
+						XH19AQAAACMAAAABAAAABwAAAFRY
+						VC5ydGYQAAAA8k6dZrYBAAAAAAAA
+						AAAAAA==
+						</data>
+						<key>Title</key>
+						<string>Package</string>
+					</dict>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>ActionUID</key>
+						<integer>21775</integer>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>Text</key>
+						<string>\\begin{figure}[h]
+\\centering
+\\begin{subfigure}{.5\\textwidth}
+  \\centering
+  \\includegraphics[width=.8\\linewidth]{image1}
+  \\caption{1a}
+  \\label{fig:sfig1}
+\\end{subfigure}%
+\\begin{subfigure}{.5\\textwidth}
+  \\centering
+  \\includegraphics[width=.8\\linewidth]{image2}
+  \\caption{1b}
+  \\label{fig:sfig2}
+\\end{subfigure}
+\\caption{plots of....}
+\\label{fig:fig}
+\\end{figure}</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>743278159.92305601</real>
+				<key>ModificationDate</key>
+				<real>743411176.101246</real>
+				<key>Name</key>
+				<string>Subfigures</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>A6A18317-4278-4E75-835A-92558EB4FCD1</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Latex Snippets</string>
+		<key>ToggleMacroUID</key>
+		<string>DD3ADE7D-D85A-478C-A381-AAB8E22C1421</string>
+		<key>UID</key>
+		<string>DA199D0D-A5FD-4376-A4F8-120ACC999AF9</string>
+	</dict>
+</array>
+</plist>

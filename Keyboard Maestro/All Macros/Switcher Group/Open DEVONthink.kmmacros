@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>711367206.46177101</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionUID</key>
+						<integer>12478</integer>
+						<key>AllWindows</key>
+						<true/>
+						<key>AlreadyActivatedActionType</key>
+						<string>Normal</string>
+						<key>Application</key>
+						<dict>
+							<key>BundleIdentifier</key>
+							<string>com.devon-technologies.think3</string>
+							<key>Name</key>
+							<string>DEVONthink 3</string>
+							<key>NewFile</key>
+							<string>/Applications/DEVONthink 3.app</string>
+						</dict>
+						<key>MacroActionType</key>
+						<string>ActivateApplication</string>
+						<key>ReopenWindows</key>
+						<true/>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>714566762.49582899</real>
+				<key>ModificationDate</key>
+				<real>714566789.01406705</real>
+				<key>Name</key>
+				<string>Open DEVONthink</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>17</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>4096</integer>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>E7E8CCBB-114D-42AD-96FE-3B456DC12BA3</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Switcher Group</string>
+		<key>Targeting</key>
+		<dict>
+			<key>Targeting</key>
+			<string>Excluded</string>
+			<key>TargetingApps</key>
+			<array>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>com.apple.Terminal</string>
+					<key>Name</key>
+					<string>Terminal</string>
+					<key>NewFile</key>
+					<string>/System/Applications/Utilities/Terminal.app</string>
+				</dict>
+			</array>
+		</dict>
+		<key>ToggleMacroUID</key>
+		<string>49866B57-A161-4D60-A5C8-25650D223761</string>
+		<key>UID</key>
+		<string>F880C574-20B4-4DB2-B48E-B3F7474D524E</string>
+	</dict>
+</array>
+</plist>

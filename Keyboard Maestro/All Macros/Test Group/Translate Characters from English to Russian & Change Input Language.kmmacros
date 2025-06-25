@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>459061285.50323999</real>
+		<key>IsActive</key>
+		<false/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionUID</key>
+						<integer>14758</integer>
+						<key>KeyCode</key>
+						<integer>123</integer>
+						<key>MacroActionType</key>
+						<string>SimulateKeystroke</string>
+						<key>Modifiers</key>
+						<integer>2560</integer>
+						<key>ReleaseAll</key>
+						<false/>
+						<key>TargetApplication</key>
+						<dict/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+					<dict>
+						<key>Action</key>
+						<string>Copy</string>
+						<key>ActionUID</key>
+						<integer>14759</integer>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>CutCopyPaste</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>14760</integer>
+						<key>MacroActionType</key>
+						<string>SetVariableToText</string>
+						<key>Text</key>
+						<string>%CurrentClipboard%</string>
+						<key>Variable</key>
+						<string>charactersToTranslate</string>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>14761</integer>
+						<key>DisplayKind</key>
+						<string>Pasting</string>
+						<key>HonourFailureSettings</key>
+						<true/>
+						<key>IncludeStdErr</key>
+						<true/>
+						<key>IncludedVariables</key>
+						<array>
+							<string>9999</string>
+						</array>
+						<key>MacroActionType</key>
+						<string>ExecuteAppleScript</string>
+						<key>NotifyOnFailure</key>
+						<false/>
+						<key>Path</key>
+						<string></string>
+						<key>StopOnFailure</key>
+						<false/>
+						<key>Text</key>
+						<string>------------------------------------------------------------
+# Auth: Christopher Stone
+# dCre: 2015/09/15 21:00
+# dMod: 2015/09/15 21:57
+# Appl: Keyboard Maestro Engine
+# Task: Translate Characters from English to Russian
+# Libs: None
+# Osax: None
+# Tags: @Applescript, @Script, @Keyboard_Maestro_Engine, @Translate, @Characters, @English, @Russian
+------------------------------------------------------------
+
+try
+	
+	set _text to getCharactersToTranlate()
+	set newText to translateCharacters(_text)
+	
+on error e number n
+	set e to e &amp; return &amp; return &amp; "Num: " &amp; n
+	if n ≠ -128 then
+		try
+			tell application (path to frontmost application as text) to set ddButton to button returned of ¬
+				(display dialog e with title "ERROR!" buttons {"Copy Error Message", "Cancel", "OK"} ¬
+					default button "OK" giving up after 30)
+			if ddButton = "Copy Error Message" then set the clipboard to e
+		end try
+	end if
+end try
+
+------------------------------------------------------------
+--» HANDLERS
+------------------------------------------------------------
+on getCharactersToTranlate()
+	tell application "Keyboard Maestro Engine"
+		set _text to value of variable "charactersToTranslate"
+	end tell
+end getCharactersToTranlate
+------------------------------------------------------------
+on translateCharacters(_text)
+	set _english to "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+	set _russian to {"ф", "и", "с", "в", "у", "а", "п", "р", "ш", "о", "л", "д", "ь", "т", "щ", "з", "й", "к", "ы", "е", "г", "м", "ц", "ч", "н", "я", "Ф", "И", "С", "В", "У", "А", "П", "Р", "Ш", "О", "Л", "Д", "Ь", "Т", "Щ", "З", "Й", "К", "Ы", "Е", "Г", "М", "Ц", "Ч", "Н", "Я"}
+	
+	set _text to characters of _text
+	
+	considering case
+		repeat with i in _text
+			set contents of i to item (offset of (contents of i) in _english) of _russian
+		end repeat
+	end considering
+	
+	return _text as text
+	
+end translateCharacters
+------------------------------------------------------------
+</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>TrimResults</key>
+						<true/>
+						<key>TrimResultsNew</key>
+						<true/>
+						<key>UseText</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>14762</integer>
+						<key>DisplayKind</key>
+						<string>None</string>
+						<key>HonourFailureSettings</key>
+						<true/>
+						<key>IncludeStdErr</key>
+						<true/>
+						<key>IncludedVariables</key>
+						<array>
+							<string>9999</string>
+						</array>
+						<key>MacroActionType</key>
+						<string>ExecuteAppleScript</string>
+						<key>NotifyOnFailure</key>
+						<false/>
+						<key>Path</key>
+						<string></string>
+						<key>StopOnFailure</key>
+						<false/>
+						<key>Text</key>
+						<string>------------------------------------------------------------
+# Auth: Christopher Stone
+# dCre: 2015/09/13 15:00
+# dMod: 2015/09/15 22:07
+# Appl: Keyboard Maestro Engine
+# Task: Change Input Language
+# Libs: None
+# Osax: None
+# Tags: @Applescript, @Script, @Keyboard_Maestro_Engine, @Translate, @Characters, @English, @Russian
+------------------------------------------------------------
+
+try
+	
+	changeInputLanguage("Russian")
+	
+on error e number n
+	set e to e &amp; return &amp; return &amp; "Num: " &amp; n
+	if n ≠ -128 then
+		try
+			tell application (path to frontmost application as text) to set ddButton to button returned of ¬
+				(display dialog e with title "ERROR!" buttons {"Copy Error Message", "Cancel", "OK"} ¬
+					default button "OK" giving up after 30)
+			if ddButton = "Copy Error Message" then set the clipboard to e
+		end try
+	end if
+end try
+
+------------------------------------------------------------
+--» HANDLERS
+------------------------------------------------------------
+on changeInputLanguage(menuName)
+	tell application "System Events"
+		if quit delay ≠ 0 then set quit delay to 0
+		
+		tell application process "SystemUIServer"
+			tell menu bar 1
+				try
+					set inputMenu to first menu bar item whose accessibility description is "text input"
+				on error
+					error "The Input Menu is probably not visible in the menu bar."
+				end try
+			end tell
+		end tell
+		
+		tell inputMenu
+			perform action "AXPress"
+			tell menu 1
+				tell menu item menuName
+					perform action "AXPress"
+				end tell
+			end tell
+		end tell
+		
+	end tell
+end changeInputLanguage
+------------------------------------------------------------
+</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>TrimResults</key>
+						<true/>
+						<key>TrimResultsNew</key>
+						<true/>
+						<key>UseText</key>
+						<true/>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>464064522.27657002</real>
+				<key>ModificationDate</key>
+				<real>464065724.267353</real>
+				<key>Name</key>
+				<string>Translate Characters from English to Russian &amp; Change Input Language</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>122</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>0</integer>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>F1FAB95A-5B71-4AAA-AE6B-517253DD9274</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Test Group</string>
+		<key>ToggleMacroUID</key>
+		<string>9C63B098-5A73-4206-95CB-0D1C799D89CF</string>
+		<key>UID</key>
+		<string>0649F9D7-60E0-4367-83AE-DFFF5CA15C00</string>
+	</dict>
+</array>
+</plist>

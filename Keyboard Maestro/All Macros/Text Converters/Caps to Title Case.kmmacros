@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>714074695.892097</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>Copy</string>
+						<key>ActionUID</key>
+						<integer>14374</integer>
+						<key>MacroActionType</key>
+						<string>ClipboardSwitcherMacroAction</string>
+						<key>Name</key>
+						<string>6E70597D-D349-4ACE-8B73-D53E4CEDE448</string>
+						<key>RedundandDisplayName</key>
+						<string>Local Algorithmic Clipboard</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>Action</key>
+						<string>Lowercase</string>
+						<key>ActionUID</key>
+						<integer>14375</integer>
+						<key>MacroActionType</key>
+						<string>Filter</string>
+						<key>NamedClipboardName</key>
+						<string>6E70597D-D349-4ACE-8B73-D53E4CEDE448</string>
+						<key>RedundandDisplayName</key>
+						<string>Local Algorithmic Clipboard</string>
+						<key>Source</key>
+						<string>NamedClipboard</string>
+					</dict>
+					<dict>
+						<key>Action</key>
+						<string>TitleCase</string>
+						<key>ActionUID</key>
+						<integer>14376</integer>
+						<key>MacroActionType</key>
+						<string>Filter</string>
+						<key>NamedClipboardName</key>
+						<string>6E70597D-D349-4ACE-8B73-D53E4CEDE448</string>
+						<key>RedundandDisplayName</key>
+						<string>Local Algorithmic Clipboard</string>
+						<key>Source</key>
+						<string>NamedClipboard</string>
+					</dict>
+					<dict>
+						<key>Action</key>
+						<string>Paste</string>
+						<key>ActionUID</key>
+						<integer>14378</integer>
+						<key>MacroActionType</key>
+						<string>ClipboardSwitcherMacroAction</string>
+						<key>Name</key>
+						<string>6E70597D-D349-4ACE-8B73-D53E4CEDE448</string>
+						<key>RedundandDisplayName</key>
+						<string>Local Algorithmic Clipboard</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>716576338.50486302</real>
+				<key>ModificationDate</key>
+				<real>716720553.91951096</real>
+				<key>Name</key>
+				<string>Caps to Title Case</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>C596F535-B6EB-4EA6-86FF-4758F8BD5A11</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Text Converters</string>
+		<key>ToggleMacroUID</key>
+		<string>92181CBE-E1A4-4B34-A327-8A62BE82D62E</string>
+		<key>UID</key>
+		<string>40876904-AF1C-437A-B33F-17799EC4B7EC</string>
+	</dict>
+</array>
+</plist>

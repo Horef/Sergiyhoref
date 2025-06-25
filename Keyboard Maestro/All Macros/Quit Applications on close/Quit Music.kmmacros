@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>733135192.07549703</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>Quit</string>
+						<key>ActionUID</key>
+						<integer>17464</integer>
+						<key>Application</key>
+						<dict>
+							<key>BundleIdentifier</key>
+							<string>com.apple.Music</string>
+							<key>Name</key>
+							<string>Music</string>
+							<key>NewFile</key>
+							<string>/System/Applications/Music.app</string>
+						</dict>
+						<key>MacroActionType</key>
+						<string>QuitSpecificApp</string>
+						<key>Target</key>
+						<string>Specific</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>733135506.37700403</real>
+				<key>IsActive</key>
+				<false/>
+				<key>ModificationDate</key>
+				<real>733135623.92631698</real>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>Application</key>
+						<dict>
+							<key>BundleIdentifier</key>
+							<string>com.apple.Music</string>
+							<key>Name</key>
+							<string>Music</string>
+							<key>NewFile</key>
+							<string>/System/Applications/Music.app</string>
+						</dict>
+						<key>FireType2</key>
+						<string>Deactivate</string>
+						<key>MacroTriggerType</key>
+						<string>Application</string>
+						<key>RepeatTime</key>
+						<integer>60</integer>
+						<key>Target</key>
+						<string>Specific</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>3C4E8BF2-9FB2-4F42-B33D-1B5336ACBF6C</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Quit Applications on close</string>
+		<key>ToggleMacroUID</key>
+		<string>A1C37F53-9045-418A-8A05-742C206674EB</string>
+		<key>UID</key>
+		<string>4D317D12-E66B-444F-82FA-F607BD93B985</string>
+	</dict>
+</array>
+</plist>

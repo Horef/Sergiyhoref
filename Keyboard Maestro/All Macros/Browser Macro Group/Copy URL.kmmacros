@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>711372941.68135798</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionUID</key>
+						<integer>10213</integer>
+						<key>JustDisplay</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>SetClipboardToText</string>
+						<key>Text</key>
+						<string>%FrontBrowserURL%</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>714133806.766361</real>
+				<key>ModificationDate</key>
+				<real>714133952.91473103</real>
+				<key>Name</key>
+				<string>Copy URL</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>32</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>256</integer>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>82F2A25B-E3E9-425E-90F4-60B77E770E04</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Browser Macro Group</string>
+		<key>Targeting</key>
+		<dict>
+			<key>Targeting</key>
+			<string>Included</string>
+			<key>TargetingApps</key>
+			<array>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>com.apple.Safari</string>
+					<key>Name</key>
+					<string>Safari</string>
+					<key>NewFile</key>
+					<string>/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app</string>
+				</dict>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>company.thebrowser.Browser</string>
+					<key>Name</key>
+					<string>Arc</string>
+					<key>NewFile</key>
+					<string>/Applications/Arc.app</string>
+				</dict>
+			</array>
+		</dict>
+		<key>ToggleMacroUID</key>
+		<string>DA70B977-BD1C-47CD-B390-776664B93F60</string>
+		<key>UID</key>
+		<string>F0169D95-635D-4FBA-B52C-7F2F87A1061F</string>
+	</dict>
+</array>
+</plist>

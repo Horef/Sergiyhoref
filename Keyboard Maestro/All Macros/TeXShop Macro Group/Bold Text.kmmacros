@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>743699313.43198299</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>Copy</string>
+						<key>ActionUID</key>
+						<integer>22165</integer>
+						<key>MacroActionType</key>
+						<string>ClipboardSwitcherMacroAction</string>
+						<key>Name</key>
+						<string>4555BC10-B0FB-4D16-9045-95D91A76DCC4</string>
+						<key>RedundandDisplayName</key>
+						<string>TeXShop Clipboard</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>ActionUID</key>
+						<integer>22166</integer>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>Text</key>
+						<string>\\textbf{%NamedClipboard%TeXShop Clipboard%}</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>743699345.26100004</real>
+				<key>ModificationDate</key>
+				<real>743699448.07616603</real>
+				<key>Name</key>
+				<string>Bold Text</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>11</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>256</integer>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>71132AF0-ED1C-4B3E-BD42-6CAAE559578E</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>TeXShop Macro Group</string>
+		<key>Targeting</key>
+		<dict>
+			<key>Targeting</key>
+			<string>Included</string>
+			<key>TargetingApps</key>
+			<array>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>TeXShop</string>
+					<key>Name</key>
+					<string>TeXShop</string>
+					<key>NewFile</key>
+					<string>/Applications/TeX/TeXShop.app</string>
+				</dict>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>com.vallettaventures.Texpad</string>
+					<key>Name</key>
+					<string>Texifier</string>
+					<key>NewFile</key>
+					<string>/Applications/Texifier.app</string>
+				</dict>
+			</array>
+		</dict>
+		<key>ToggleMacroUID</key>
+		<string>8E5FBD66-77CF-4F78-A782-58A07B7646CE</string>
+		<key>UID</key>
+		<string>22BDEB33-0C92-4E98-83E0-99AD22EBA058</string>
+	</dict>
+</array>
+</plist>

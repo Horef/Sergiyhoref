@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>711367206.46177101</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionUID</key>
+						<integer>9457</integer>
+						<key>DisplayKind</key>
+						<string>Clipboard</string>
+						<key>ImageSource</key>
+						<string>SystemClipboard</string>
+						<key>Language</key>
+						<string>Apple Text Recognition</string>
+						<key>MacroActionType</key>
+						<string>OCRImage</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>9461</integer>
+						<key>MacroActionType</key>
+						<string>Notification</string>
+						<key>SoundName</key>
+						<string>Blow</string>
+						<key>Subtitle</key>
+						<string>Text was recognised successfully.</string>
+						<key>Text</key>
+						<string>The text found:
+%SystemClipboard%</string>
+						<key>Title</key>
+						<string>%ExecutingMacro% finished Sucessfully!</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>714070010.56257498</real>
+				<key>ModificationDate</key>
+				<real>728221448.98915803</real>
+				<key>Name</key>
+				<string>OCR English</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>28</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>4864</integer>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>B6C0A1C1-0A76-4A4B-8F8D-9B7A91DFB509</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Global Macro Group</string>
+		<key>ToggleMacroUID</key>
+		<string>B1244CEF-24B2-4C70-83C7-8E9466C5D840</string>
+		<key>UID</key>
+		<string>804D32AF-0B39-439F-8EF3-493A833B14CA</string>
+	</dict>
+</array>
+</plist>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>711367206.46177101</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionUID</key>
+						<integer>26890</integer>
+						<key>DisplayKind</key>
+						<string>Clipboard</string>
+						<key>ImageSource</key>
+						<string>SystemClipboard</string>
+						<key>Language</key>
+						<string>Languages/rus</string>
+						<key>MacroActionType</key>
+						<string>OCRImage</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>26891</integer>
+						<key>MacroActionType</key>
+						<string>Notification</string>
+						<key>SoundName</key>
+						<string>Blow</string>
+						<key>Subtitle</key>
+						<string>Text was recognised successfully.</string>
+						<key>Text</key>
+						<string>The text found:
+%SystemClipboard%</string>
+						<key>Title</key>
+						<string>%ExecutingMacro% finished Sucessfully!</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>771689214.35799205</real>
+				<key>ModificationDate</key>
+				<real>771689252.87125099</real>
+				<key>Name</key>
+				<string>OCR Russian</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>DF2B79DA-677F-4E8F-970A-9C87593A01F6</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Global Macro Group</string>
+		<key>ToggleMacroUID</key>
+		<string>B1244CEF-24B2-4C70-83C7-8E9466C5D840</string>
+		<key>UID</key>
+		<string>804D32AF-0B39-439F-8EF3-493A833B14CA</string>
+	</dict>
+</array>
+</plist>

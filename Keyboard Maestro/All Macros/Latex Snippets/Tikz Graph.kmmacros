@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>743277343.30167699</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>ActionUID</key>
+						<integer>24922</integer>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>Text</key>
+						<string>\\begin{center}
+\\begin{tikzpicture}[roundnode/.style={circle, draw=black!60, very thick, minimum size=7mm}]
+    
+    %Nodes
+    \\node[roundnode](x0) at (0,0) {$x_0$};
+    \\node[roundnode](x1) at (2,0) {$x_1$};
+    \\node[roundnode](x2) at (4,0) {$x_2$};
+    \\node[roundnode](x3) at (6,0) {$x_3$};
+    \\node[roundnode](x4) at (8,0) {$x_4$};
+    \\node[roundnode](x5) at (10,0) {$x_5$};
+    
+    \\node[roundnode](l) at (3,2) {$l$};
+    
+    %Lines
+    \\draw[-&gt;, thick] (x1) edge (x0);
+    \\draw[-&gt;, thick] (l) edge (x1);
+    \\draw[-&gt;, thick] (x2) edge (x1);
+    \\draw[-&gt;, thick] (l) edge (x2);
+    \\draw[-&gt;, thick] (x3) edge (x2);
+    \\draw[-&gt;, thick] (x4) edge (x3);
+    \\draw[-&gt;, thick] (l) edge (x3);
+    \\draw[-&gt;, thick] (l) edge (x4);
+    \\draw[-&gt;, thick] (x5) edge (l);
+    \\draw[-&gt;, thick] (x5) edge (x4);
+    
+\\end{tikzpicture}
+\\end{center}</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>767344235.06697702</real>
+				<key>ModificationDate</key>
+				<real>767344277.70284998</real>
+				<key>Name</key>
+				<string>Tikz Graph</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>10B4C635-7D23-4448-B99B-EEB0266DC7B6</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Latex Snippets</string>
+		<key>ToggleMacroUID</key>
+		<string>DD3ADE7D-D85A-478C-A381-AAB8E22C1421</string>
+		<key>UID</key>
+		<string>DA199D0D-A5FD-4376-A4F8-120ACC999AF9</string>
+	</dict>
+</array>
+</plist>

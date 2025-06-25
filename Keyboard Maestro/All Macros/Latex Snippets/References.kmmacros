@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>743277343.30167699</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionUID</key>
+						<integer>23736</integer>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>StyledText</key>
+						<data>
+						cnRmZAAAAAADAAAAAgAAAAcAAABU
+						WFQucnRmAQAAAC6XAQAAKwAAAAEA
+						AACPAQAAe1xydGYxXGFuc2lcYW5z
+						aWNwZzEyNTJcY29jb2FydGYyODIx
+						Clxjb2NvYXRleHRzY2FsaW5nMFxj
+						b2NvYXBsYXRmb3JtMHtcZm9udHRi
+						bFxmMFxmc3dpc3NcZmNoYXJzZXQw
+						IEhlbHZldGljYTt9CntcY29sb3J0
+						Ymw7XHJlZDI1NVxncmVlbjI1NVxi
+						bHVlMjU1O1xyZWQwXGdyZWVuMFxi
+						bHVlMDt9CntcKlxleHBhbmRlZGNv
+						bG9ydGJsOztcY3NzcmdiXGMwXGMw
+						XGMwXGM4NDcwNlxjbmFtZSBjb250
+						cm9sVGV4dENvbG9yO30KXHBhcmRc
+						dHg1NjBcdHgxMTIwXHR4MTY4MFx0
+						eDIyNDBcdHgyODAwXHR4MzM2MFx0
+						eDM5MjBcdHg0NDgwXHR4NTA0MFx0
+						eDU2MDBcdHg2MTYwXHR4NjcyMFxw
+						YXJkaXJuYXR1cmFsXHBhcnRpZ2h0
+						ZW5mYWN0b3IwCgpcZjBcZnMyNiBc
+						Y2YyIFxcdXNlcGFja2FnZVx7bmF0
+						YmliXH19AQAAACMAAAABAAAABwAA
+						AFRYVC5ydGYQAAAA8mBkZ7YBAAAA
+						AAAAAAAAAA==
+						</data>
+						<key>Title</key>
+						<string>Requirements</string>
+					</dict>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>ActionUID</key>
+						<integer>23737</integer>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>Text</key>
+						<string>\\bibliography{References.bib}
+\\bibliographystyle{chicago}</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>756321596.72622299</real>
+				<key>ModificationDate</key>
+				<real>756324484.80693996</real>
+				<key>Name</key>
+				<string>References</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>E3CEF8D6-291D-4AD1-9FA8-2092236F925C</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Latex Snippets</string>
+		<key>ToggleMacroUID</key>
+		<string>DD3ADE7D-D85A-478C-A381-AAB8E22C1421</string>
+		<key>UID</key>
+		<string>DA199D0D-A5FD-4376-A4F8-120ACC999AF9</string>
+	</dict>
+</array>
+</plist>

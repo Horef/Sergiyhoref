@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>712001138.56082296</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array/>
+				<key>CreationDate</key>
+				<real>712001146.64405596</real>
+				<key>ModificationDate</key>
+				<real>712001192.85395706</real>
+				<key>Name</key>
+				<string>Audio Adjust</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>5307F0B6-2984-4CAB-B554-C6DBB9E19172</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Auto Triggered</string>
+		<key>ToggleMacroUID</key>
+		<string>6B58A1D5-AB68-41AB-9F3B-5CE7C3227679</string>
+		<key>UID</key>
+		<string>145D1EF1-1C53-4D90-9A89-06861C4F1FB1</string>
+	</dict>
+</array>
+</plist>

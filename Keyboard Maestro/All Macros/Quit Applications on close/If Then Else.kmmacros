@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>733135192.07549703</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionUID</key>
+						<integer>18634</integer>
+						<key>Conditions</key>
+						<dict>
+							<key>ConditionList</key>
+							<array>
+								<dict>
+									<key>Application</key>
+									<dict>
+										<key>BundleIdentifier</key>
+										<string>com.microsoft.Outlook</string>
+										<key>Name</key>
+										<string>Microsoft Outlook</string>
+										<key>NewFile</key>
+										<string>/Applications/Microsoft Outlook.app</string>
+									</dict>
+									<key>ApplicationConditionType</key>
+									<string>NotRunning</string>
+									<key>ConditionType</key>
+									<string>Application</string>
+								</dict>
+							</array>
+							<key>ConditionListMatch</key>
+							<string>All</string>
+						</dict>
+						<key>ElseActions</key>
+						<array/>
+						<key>MacroActionType</key>
+						<string>IfThenElse</string>
+						<key>ThenActions</key>
+						<array/>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>Action</key>
+						<string>Quit</string>
+						<key>ActionUID</key>
+						<integer>17073</integer>
+						<key>Application</key>
+						<dict>
+							<key>BundleIdentifier</key>
+							<string>com.microsoft.Outlook</string>
+							<key>Name</key>
+							<string>Microsoft Outlook</string>
+							<key>NewFile</key>
+							<string>/Applications/Microsoft Outlook.app</string>
+						</dict>
+						<key>MacroActionType</key>
+						<string>QuitSpecificApp</string>
+						<key>Target</key>
+						<string>Specific</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>733135098.93013895</real>
+				<key>IsActive</key>
+				<false/>
+				<key>ModificationDate</key>
+				<real>733215021.24686503</real>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>Application</key>
+						<dict>
+							<key>BundleIdentifier</key>
+							<string>com.microsoft.Outlook</string>
+							<key>Name</key>
+							<string>Microsoft Outlook</string>
+							<key>NewFile</key>
+							<string>/Applications/Microsoft Outlook.app</string>
+						</dict>
+						<key>FireType2</key>
+						<string>Deactivate</string>
+						<key>MacroTriggerType</key>
+						<string>Application</string>
+						<key>RepeatTime</key>
+						<integer>60</integer>
+						<key>Target</key>
+						<string>Specific</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>9957C7E4-88FA-47C7-83EE-79848878B0FC</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Quit Applications on close</string>
+		<key>ToggleMacroUID</key>
+		<string>A1C37F53-9045-418A-8A05-742C206674EB</string>
+		<key>UID</key>
+		<string>4D317D12-E66B-444F-82FA-F607BD93B985</string>
+	</dict>
+</array>
+</plist>

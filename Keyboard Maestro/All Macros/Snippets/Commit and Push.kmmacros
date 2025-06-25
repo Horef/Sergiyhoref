@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>711977891.35868394</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionUID</key>
+						<integer>3444</integer>
+						<key>Buttons</key>
+						<array>
+							<dict>
+								<key>Button</key>
+								<string>OK</string>
+							</dict>
+							<dict>
+								<key>Button</key>
+								<string>Cancel</string>
+								<key>Cancel</key>
+								<true/>
+							</dict>
+						</array>
+						<key>MacroActionType</key>
+						<string>PromptForUserInput</string>
+						<key>Prompt</key>
+						<string>Please enter the message for the commit.</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>Title</key>
+						<string>Commit Message</string>
+						<key>Variables</key>
+						<array>
+							<dict>
+								<key>Default</key>
+								<string>unnamed commit</string>
+								<key>Type</key>
+								<string>Text</string>
+								<key>Variable</key>
+								<string>Commit Message</string>
+							</dict>
+						</array>
+					</dict>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>ActionUID</key>
+						<integer>3820</integer>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>Text</key>
+						<string>git status
+git add .
+git commit -m "%Variable%Commit Message%"
+git push origin main</string>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>3821</integer>
+						<key>KeyCode</key>
+						<integer>36</integer>
+						<key>MacroActionType</key>
+						<string>SimulateKeystroke</string>
+						<key>Modifiers</key>
+						<integer>0</integer>
+						<key>ReleaseAll</key>
+						<false/>
+						<key>TargetApplication</key>
+						<dict/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>711977979.57467198</real>
+				<key>CustomIconData</key>
+				<string>KMEP-GenericApplication-/Applications/GitHub Desktop.app</string>
+				<key>ModificationDate</key>
+				<real>733397340.25489902</real>
+				<key>Name</key>
+				<string>Commit and Push</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>CE491466-BA24-4AF3-AD1D-DFBF59915809</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Snippets</string>
+		<key>ToggleMacroUID</key>
+		<string>3FFC8F12-F9BF-4F98-8062-88C87518C278</string>
+		<key>UID</key>
+		<string>285CB027-07D6-4DC6-8328-35799D130D5D</string>
+	</dict>
+</array>
+</plist>

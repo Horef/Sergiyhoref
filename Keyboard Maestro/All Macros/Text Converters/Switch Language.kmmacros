@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>714074695.892097</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15138</integer>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>StyledText</key>
+						<data>
+						cnRmZAAAAAADAAAAAgAAAAcAAABU
+						WFQucnRmAQAAAC7CAQAAKwAAAAEA
+						AAC6AQAAe1xydGYxXGFuc2lcYW5z
+						aWNwZzEyNTJcY29jb2FydGYyNzA5
+						Clxjb2NvYXRleHRzY2FsaW5nMFxj
+						b2NvYXBsYXRmb3JtMHtcZm9udHRi
+						bFxmMFxmc3dpc3NcZmNoYXJzZXQw
+						IEhlbHZldGljYTt9CntcY29sb3J0
+						Ymw7XHJlZDI1NVxncmVlbjI1NVxi
+						bHVlMjU1O1xyZWQwXGdyZWVuMFxi
+						bHVlMDt9CntcKlxleHBhbmRlZGNv
+						bG9ydGJsOztcY3NzcmdiXGMwXGMw
+						XGMwXGM4NDcwNlxjbmFtZSBjb250
+						cm9sVGV4dENvbG9yO30KXHBhcmRc
+						dHg1NjBcdHgxMTIwXHR4MTY4MFx0
+						eDIyNDBcdHgyODAwXHR4MzM2MFx0
+						eDM5MjBcdHg0NDgwXHR4NTA0MFx0
+						eDU2MDBcdHg2MTYwXHR4NjcyMFxw
+						YXJkaXJuYXR1cmFsXHBhcnRpZ2h0
+						ZW5mYWN0b3IwCgpcZjBcZnMyNiBc
+						Y2YyIEp1c3QgYSBqYXZhLXNjcmlw
+						dCBjb2RlIHRvIGZpbmQgdGhlIGN1
+						cnJlbmx5IGFjdGl2ZSBpbnB1dCBz
+						b3VyY2UufQEAAAAjAAAAAQAAAAcA
+						AABUWFQucnRmEAAAAHYOCGW2AQAA
+						AAAAAAAAAAA=
+						</data>
+						<key>Title</key>
+						<string>Finding the currently selected language</string>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15137</integer>
+						<key>DisplayKind</key>
+						<string>Variable</string>
+						<key>HonourFailureSettings</key>
+						<true/>
+						<key>IncludeStdErr</key>
+						<false/>
+						<key>IncludedVariables</key>
+						<array>
+							<string>9999</string>
+						</array>
+						<key>MacroActionType</key>
+						<string>ExecuteJavaScriptForAutomation</string>
+						<key>Path</key>
+						<string></string>
+						<key>Text</key>
+						<string>(function () {
+    'use strict';
+
+    ObjC.import('Carbon');
+    ObjC.bindFunction('CFMakeCollectable', ['id', ['void *']]);
+
+    return $.CFMakeCollectable(
+            $.TISGetInputSourceProperty(
+                $.TISCopyCurrentKeyboardInputSource(),
+                $.kTISPropertyInputSourceID
+            )
+        )
+        .js
+
+})();</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>TrimResults</key>
+						<true/>
+						<key>TrimResultsNew</key>
+						<true/>
+						<key>UseModernSyntax</key>
+						<false/>
+						<key>UseText</key>
+						<true/>
+						<key>Variable</key>
+						<string>input_source</string>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15140</integer>
+						<key>KeyCode</key>
+						<integer>123</integer>
+						<key>MacroActionType</key>
+						<string>SimulateKeystroke</string>
+						<key>Modifiers</key>
+						<integer>197376</integer>
+						<key>ReleaseAll</key>
+						<false/>
+						<key>TargetApplication</key>
+						<dict/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+					<dict>
+						<key>Action</key>
+						<string>Copy</string>
+						<key>ActionUID</key>
+						<integer>15141</integer>
+						<key>MacroActionType</key>
+						<string>ClipboardSwitcherMacroAction</string>
+						<key>Name</key>
+						<string>6E70597D-D349-4ACE-8B73-D53E4CEDE448</string>
+						<key>RedundandDisplayName</key>
+						<string>Local Algorithmic Clipboard</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15139</integer>
+						<key>ClipboardTargetNamedClipboardRedundantDisplayName</key>
+						<string>Local Algorithmic Clipboard</string>
+						<key>ClipboardTargetNamedClipboardUID</key>
+						<string>6E70597D-D349-4ACE-8B73-D53E4CEDE448</string>
+						<key>ClipboardTargetUseNamedClipboard</key>
+						<true/>
+						<key>DisplayKind</key>
+						<string>Clipboard</string>
+						<key>HonourFailureSettings</key>
+						<true/>
+						<key>IncludeStdErr</key>
+						<false/>
+						<key>IncludedVariables</key>
+						<array>
+							<string>9999</string>
+						</array>
+						<key>MacroActionType</key>
+						<string>ExecuteSwift</string>
+						<key>Path</key>
+						<string></string>
+						<key>Text</key>
+						<string>func translate_text() -&gt; String {
+    // Creating the dictionaries of translation
+    let eng_to_heb: [Character: Character] = ["o": "ם", "w": "׳", "t": "א", "\\": "ֿ", "k": "ל", "c": "ב", "n": "מ", "`": ";", "v": "ה", "/": ".", "f": "כ", ".": "ץ", "p": "פ", ";": "ף", "j": "ח", "u": "ו", "[": "]", "x": "ס", "l": "ך", "e": "ק", "d": "ג", "a": "ש", "r": "ר", "z": "ז", "b": "נ", "]": "[", "i": "ן", "s": "ד", "g": "ע", ",": "ת", "m": "צ", "q": "/", "y": "ט", "\'": ",", "h": "י"]
+
+    let heb_to_eng: [Character: Character] = ["י": "h", "[": "]", "ש": "a", "מ": "n", "ס": "x", "ם": "o", "ק": "e", "/": "q", "ל": "k", "נ": "b", "׳": "w", "ך": "l", "]": "[", "ף": ";", "פ": "p", "ה": "v", "ן": "i", "ע": "g", ";": "`", ",": "\'", "ג": "d", "צ": "m", "ד": "s", "ת": ",", "ב": "c", ".": "/", "ץ": ".", "ר": "r", "ח": "j", "ז": "z", "ט": "y", "כ": "f", "ו": "u", "ֿ": "\\", "א": "t"]
+
+    // Getting the current locale chosen
+    let locale_string = "%Variable%input_source%"
+    var locale = ""
+    for char in locale_string.reversed() {
+        if char == "." {
+            break
+        }
+        locale.insert(char, at: locale.startIndex)
+    }
+
+    // Translating the message to a different locale
+    let text = "%NamedClipboard%Local Algorithmic Clipboard%"
+    var translated = ""
+
+    switch locale {
+    case "ABC":
+        for letter in text {
+            let translated_char: Character = eng_to_heb[letter] ?? "\0"
+            if (translated_char == "\0") {break}
+            translated.append(translated_char)
+        } 
+    default:
+        for letter in text {
+            let translated_char: Character = heb_to_eng[letter] ?? "\0"
+            if (translated_char == "\0") {break}
+            translated.append(translated_char)
+        } 
+    }
+    return translated
+}</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>TrimResults</key>
+						<true/>
+						<key>TrimResultsNew</key>
+						<true/>
+						<key>UseText</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>ActionUID</key>
+						<integer>15142</integer>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>Text</key>
+						<string>%NamedClipboard%Local Algorithmic Clipboard%</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>716576741.59877896</real>
+				<key>ModificationDate</key>
+				<real>716720936.56346297</real>
+				<key>Name</key>
+				<string>Switch Language</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>E9AE59D7-CE2D-4466-A88C-A38CB9A98B01</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Text Converters</string>
+		<key>ToggleMacroUID</key>
+		<string>92181CBE-E1A4-4B34-A327-8A62BE82D62E</string>
+		<key>UID</key>
+		<string>40876904-AF1C-437A-B33F-17799EC4B7EC</string>
+	</dict>
+</array>
+</plist>
