@@ -1,8 +1,7 @@
 # Sergiy Horef
 Hello, and thank you for coming to this github page.
 This repo was created for me (mostly) to be able to store information or ideas that would otherwise be hard to backup.
-It will have a list of all the apps I use on my devices, and possibly some mechanisms or algorithms that have no immediate place of upload.
-If you are reading this, and you are not Sergiy Horef, you could possibly use this repo as a template to become one. (At least in a very shallow non-private sense.)
+It will have a list of all the apps I use on my devices, and possibly some scripts or algorithms that have no other immediate place to upload to.
 
 ## Scientific Literature
 - GEB (An eternal golden braid.)
@@ -42,9 +41,9 @@ If you are reading this, and you are not Sergiy Horef, you could possibly use th
 - Everything Everywhere All at Once
 - Dune 1
 - Dune 2
+
 ### Wishlist
 - We live in time
-
 
 ## Social Handles
 - Personal Instagram: @sergiyhorefpers
@@ -59,7 +58,6 @@ If you are reading this, and you are not Sergiy Horef, you could possibly use th
 - BlueSky: [@sergiyhoref.bsky.social](https://bsky.app/profile/sergiyhoref.bsky.social)
 - Telegram: SergiyHoref
 - Telegram Private Channel where i post my thought on the world: [link](https://t.me/+x2wCsVk28ONiMjli)
-  - Please keep in mind that this is a closed channel, and I will need to approve your request to join. I try to keep a very good hygene of the people I add there, as it directly influences what I do, and don't feel comfortable with posting there.
 - Telegram Gallery of Photos: [link](https://t.me/Horef_Gallery)
 - Telegram Gallery of Drawings: [link](https://t.me/horef_drawing_gallery)
 - Telegram Gallery of Origami: [link](https://t.me/horef_origami)
